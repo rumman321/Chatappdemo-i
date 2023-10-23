@@ -6,6 +6,9 @@ plugins {
 android {
     namespace = "com.example.otp"
     compileSdk = 34
+    buildFeatures{
+        viewBinding=true
+    }
 
     defaultConfig {
         applicationId = "com.example.otp"
